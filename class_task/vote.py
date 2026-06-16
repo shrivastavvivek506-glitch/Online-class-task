@@ -1,14 +1,12 @@
-location = input("hii, Enter your location : ")
+location = input("Enter your location :")
+if location == "bihar":
+    age = int(input("Enter your age : "))
 
-if (location =="bihar"):
-    
-    age = int(input("Enter your age :"))
+    if age >= 18:
 
-    if (age >=18):
-
-        print ("you are elgbile to vote :")
+        print("You are eligible to vote :")
     else:
-        print ("you are not eligbile to vote :")    
+                print("You are not eligible to vote :")
+
 else:
-    print ("you are not elgbile to vote:")        
-        
+        print("You are not eligible to vote :") 

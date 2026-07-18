@@ -10,3 +10,19 @@ s = student()
 print(s.name)
 print(s.course)
 s.student_details
+
+#-------------------------------------
+
+print("// Example 2:")
+
+class car():
+    name="BMW"
+    model="5x"
+    color="black"
+    def car_info(self):
+        print("all about car")
+
+v = car()
+print(v.name)
+print(v.color)
+v.car_info()

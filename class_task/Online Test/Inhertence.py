@@ -12,4 +12,5 @@ owner_obj = owner()
 print(owner_obj.car_mobel)
 print(owner_obj.owner_name)
 print(owner_obj.seral_no)
+print(owner_obj.mobile_no)
 

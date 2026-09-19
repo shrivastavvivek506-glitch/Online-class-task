@@ -10,3 +10,4 @@ class Vivek(Aditya):
 
 Vivek_obj = Vivek()
 print(Vivek_obj.Company_name)
+print(Vivek_obj.Privact_Ltd)

@@ -48,3 +48,22 @@ def square(num):
 square(5)
 square(8)
 
+print("-----------------------")
+
+# 3.  Default Parameters example
+
+
+def car_owner(car="vivek"):
+    print("BMW" , car);
+
+car_owner("audi")
+
+
+print("-----------------------")
+
+def student(name, course="Python"):
+    print("Name:", name)
+    print("Course:", course)
+
+student("Vivek")
+student("Rahul", "Java")

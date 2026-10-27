@@ -68,10 +68,3 @@ def student(name, course="Python"):
 student("Vivek")
 student("Rahul", "Java")
 
-print("-------------------------")
-
-def greet(name="Vivek"):
-    print("name",name)
-
-greet()
-greet("Ashish")

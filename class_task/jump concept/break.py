@@ -14,3 +14,14 @@ for i in range(23):
         break
 
     print(i)
+
+
+    print("----------------------------------")
+
+
+for i in range(20):
+
+    if i==17:
+        break
+
+    print(i)

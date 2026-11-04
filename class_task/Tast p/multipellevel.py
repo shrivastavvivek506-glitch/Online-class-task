@@ -1,21 +1,22 @@
 # Multilevel Inheritance
 
-class Grandfather:
-    grandfather_name = "Ramesh"
-
-    def grandfather_fxn(self):
-        print("Grandfather Name:", self.grandfather_name)
+class Husband:
+    Husband_name = "Vivek Shrivastav"
 
 
-class Father(Grandfather):
-    father_name = "Rajesh"
-
-    def father_fxn(self):
-        print("Father Name:", self.father_name)
+    def Husband_fxn(self):
+        print("Husband Name:", self.Husband_name)
 
 
-class Child(Father):
-    child_name = "Vivek"
+class Wife(Husband):
+    Wife_name = "Sonakshi Shrivastav"
+
+    def Wife_fxn(self):
+        print("Wife Name:", self.Wife_name)
+
+
+class Child(Wife):
+    child_name = "Javi"
 
     def child_fxn(self):
         print("Child Name:", self.child_name)
@@ -23,8 +24,6 @@ class Child(Father):
 
 child_obj = Child()
 
-child_obj.grandfather_fxn()
-child_obj.father_fxn()
+child_obj.Husband_fxn()
+child_obj.Wife_fxn()
 child_obj.child_fxn()
-
-child_obj.grandfather_fxn()

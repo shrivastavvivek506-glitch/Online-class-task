@@ -26,3 +26,5 @@ child_obj = Child()
 child_obj.grandfather_fxn()
 child_obj.father_fxn()
 child_obj.child_fxn()
+
+child_obj.grandfather_fxn()

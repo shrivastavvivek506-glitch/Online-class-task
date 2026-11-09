@@ -13,7 +13,7 @@ class BMW(Car):
         print("BMW car is starting")
 
 
-class Audi(Car):
+class Audi(BMW):
 
     def start(self):
         print("Audi car is starting")
